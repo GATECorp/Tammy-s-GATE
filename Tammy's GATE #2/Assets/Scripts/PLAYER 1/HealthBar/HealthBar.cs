@@ -9,14 +9,14 @@ public class HealthBar : MonoBehaviour {
 	static Text Txt;
 	public float max { get; set; }
 
-	private float Valeur;
-	public float valeur
+	//private float Valeur;
+	public float life
 	{
-		get {return Valeur;}
+		get {return Life;}
 		set 
 		{
-			Valeur = Mathf.Clamp( value,0,max);
-			Barre.fillAmount = 1 / max * Valeur;
+			Life = Mathf.Clamp( value,0,max);
+			Barre.fillAmount = 1 / max * Life;
 			Txt.text = Barre.fillAmount * 100 + "%";
 		}
 	}

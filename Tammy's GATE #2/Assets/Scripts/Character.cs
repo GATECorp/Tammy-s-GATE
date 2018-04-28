@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using system
 
 namespace perso
 {
@@ -21,7 +22,7 @@ namespace perso
         private Charactertype charactertype;
         private int damage;
         private int level;
-        private int life;
+        //public int life;
         private bool isKO;
         private string name;
         private Surfacedisplacementtype _surfacedisplacementtype;
