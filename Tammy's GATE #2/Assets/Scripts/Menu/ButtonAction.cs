@@ -29,7 +29,7 @@ public class ButtonAction : MonoBehaviour
 		switch (type)
 		{
 				case ActionType.StartGame:
-					Application.LoadLevel("level1");
+					Application.LoadLevel("MiniGame");
 					break;
 				case ActionType.GoMenu:
 					Application.LoadLevel("Menu");

@@ -43,24 +43,29 @@ RenderSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 67f3a90... Revert "script"
+=======
+>>>>>>> parent of 93a1df7... try
   m_IndirectSpecularColor: {r: 0.446576, g: 0.49641055, b: 0.57481587, a: 1}
 =======
   m_IndirectSpecularColor: {r: 0.42057833, g: 0.33654764, b: 0.755905, a: 1}
 >>>>>>> 39968571c5b6bbdc307adac8c7a627d49de7d7e6
-<<<<<<< HEAD
 =======
   m_IndirectSpecularColor: {r: 0.44657642, g: 0.49641132, b: 0.574817, a: 1}
 >>>>>>> parent of 245cc13... script
 =======
   m_IndirectSpecularColor: {r: 0.446576, g: 0.49641055, b: 0.57481587, a: 1}
 >>>>>>> parent of 6370400... Merge branch 'master' of https://github.com/GATECorp/Tammy-s-GATE
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 67f3a90... Revert "script"
 =======
   m_IndirectSpecularColor: {r: 0.446576, g: 0.49641055, b: 0.57481587, a: 1}
 >>>>>>> parent of 6370400... Merge branch 'master' of https://github.com/GATECorp/Tammy-s-GATE
+=======
+>>>>>>> parent of 93a1df7... try
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2499,6 +2504,7 @@ MeshRenderer:
   m_LocalEulerAnglesHint: {x: 0, y: 0.683, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &209499597
 =======
 =======
@@ -2633,6 +2639,9 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 223148956}
 --- !u!1 &243478795
+=======
+--- !u!1 &209499597
+>>>>>>> parent of 93a1df7... try
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100010, guid: f891d56a1064b454b83e5ee2d86bc3a9, type: 3}
@@ -18029,6 +18038,7 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1139890830}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e96821f6bca660489a8a6e65008cf41, type: 3}
   m_Name: 
@@ -18090,14 +18100,109 @@ MonoBehaviour:
   - {fileID: 4917448098082248, guid: 34623e68dce380f40addb8acaa85b8ed, type: 2}
   currentPlayer: {fileID: 1139890837}
 --- !u!4 &1139890837
+=======
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 68a2bada588bddd42913679983135653, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1539120109
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 68a2bada588bddd42913679983135653,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1539120106}
+  m_Mesh: {fileID: 4300000, guid: 68a2bada588bddd42913679983135653, type: 3}
+--- !u!1 &1540803708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: f891d56a1064b454b83e5ee2d86bc3a9, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1540803709}
+  m_Layer: 0
+  m_Name: BAT3 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1540803709
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: f891d56a1064b454b83e5ee2d86bc3a9, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1540803708}
+  m_LocalRotation: {x: -0, y: 0.9999824, z: -0, w: -0.0059293346}
+  m_LocalPosition: {x: -93.9, y: 32.56093, z: -125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1518292658}
+  - {fileID: 821654678}
+  - {fileID: 1929090261}
+  - {fileID: 753248692}
+  - {fileID: 305072236}
+  m_Father: {fileID: 1324757745}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 180.67899, z: 0}
+--- !u!1 &1541458194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 47d9a967381cdaa47b463578b66e5d34, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1541458195}
+  - component: {fileID: 1541458197}
+  - component: {fileID: 1541458196}
+  m_Layer: 0
+  m_Name: Icosphere.002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1541458195
+>>>>>>> parent of 93a1df7... try
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1139890830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -70.9, y: 2, z: -73.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_GameObject: {fileID: 1541458194}
+  m_LocalRotation: {x: -0.18839332, y: -0.17469154, z: 0.80927706, w: 0.5282627}
+  m_LocalPosition: {x: 2.3246398, y: 0.88320386, z: -0.9156359}
+  m_LocalScale: {x: -123.17093, y: -188.95149, z: -335.92667}
+>>>>>>> parent of 93a1df7... try
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

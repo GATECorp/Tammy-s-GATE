@@ -5,13 +5,8 @@ using UnityEngine;
 public class PlayerSlection : MonoBehaviour
 {
 
-	private string name;
+	public string name;
 	public Vector3 newPosition;
-
-	public string Name
-	{
-		get{ return name; }
-	}
 	
 	// Use this for initialization
 	void Start ()
@@ -45,7 +40,7 @@ public class PlayerSlection : MonoBehaviour
 
 	void OnMouseDown()
 	{
-		Global.Text_Name.text = name;
+		Global.currentplayer = name;
 		if (Global.selectedCursor != null)
 		{
 			Global.selectedCursor.position = newPosition;
