@@ -9,7 +9,7 @@ public class vie : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		BarreDevie.max = 100;
-		BarreDevie.Life = Personnage.life;
+		BarreDevie.valeur = 100;
 	}
 	
 	// Update is called once per frame
@@ -17,15 +17,15 @@ public class vie : MonoBehaviour {
 	{		
 		if (other.gameObject.CompareTag ("Pick Up")) 
 		{
-			BarreDevie.life -= 10;
+			BarreDevie.valeur -= 10;
 		}
 
 		if (other.gameObject.CompareTag("Pick Up 2")) 
 		{
-			BarreDevie.life += 10;
+			BarreDevie.valeur += 10;
 		}
 
-		if (BarreDevie.life == 0)
+		if (BarreDevie.valeur == 0)
 		{
 			SceneManager.LoadScene("Menu");
 		}

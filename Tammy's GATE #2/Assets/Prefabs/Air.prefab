@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 135995464563243868}
   - component: {fileID: 23119263393222710}
   - component: {fileID: 114624096170423134}
-  - component: {fileID: 114759317463649258}
   m_Layer: 0
   m_Name: Air
   m_TagString: Untagged
@@ -96,29 +95,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f88db5d5d51f5843862d6bb4b9b3481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  newPosition: {x: 0, y: 0, z: 0}
-  isKO: 0
-  charactertype: 0
-  position: {x: 0, y: 0, z: 0}
-  Life: 0
---- !u!114 &114759317463649258
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1550846086956162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94e664d3ed83b9649aa968fd09a563de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Air
-  newPosition: {x: 0, y: 0, z: 0}
-  isKO: 0
-  charactertype: 3
-  position: {x: 0, y: 0, z: 0}
-  Life: 100
 --- !u!135 &135995464563243868
 SphereCollider:
   m_ObjectHideFlags: 1
