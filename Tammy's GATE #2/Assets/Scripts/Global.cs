@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Global : MonoBehaviour
+public class Global : Personnage
 {
-
 	public static string currentplayer;
 	public static Transform cursor;
 	public static Transform selectedCursor;
