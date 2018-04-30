@@ -5,18 +5,17 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour {
 
-	static Image Barre;
-	static Text Txt;
+	public static Image Barre;
+	public static Text Txt;
 	public float max { get; set; }
 
-	//private float Valeur;
-	public float life
+	public float Life
 	{
-		get {return Life;}
+		get { return Personnage.life; }
 		set 
 		{
-			Life = Mathf.Clamp( value,0,max);
-			Barre.fillAmount = 1 / max * Life;
+			Personnage.life = Mathf.Clamp( value,0,max);
+			Barre.fillAmount = 1 / max * Personnage.life;
 			Txt.text = Barre.fillAmount * 100 + "%";
 		}
 	}
